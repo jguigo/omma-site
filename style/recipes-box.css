@@ -40,6 +40,7 @@ h1{
     height: 48px;
     background-color:#176902;
     border-style: none;
+    text-align: center;
 }
 
 .container-box button a{
@@ -47,6 +48,8 @@ h1{
     color: #ffffff;
     font-size: 24px;
     font-weight: 700;
+    margin: 0;
+    padding: 9px 43px 10px 35px;
 }
 
 .img-container{
