@@ -1,8 +1,20 @@
+main{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
 h1{
     color: #FFA000;
     font-size: 50px;
     font-weight: 700px;
+    margin: 104px 0px 69px 68px;
+}
 
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .container-box{
@@ -15,7 +27,7 @@ h1{
     width: 449px;   
     font-size: 26px;
     font-weight: 700;
-    margin-bottom: 420px;
+    margin-bottom: 116px;
 }
 
 .container-box p {
@@ -47,3 +59,6 @@ h1{
 
 }
 
+footer{
+    margin-top: 303px;
+}
