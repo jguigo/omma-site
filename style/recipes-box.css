@@ -35,17 +35,11 @@ h1{
     margin: 0;
 }
 
-.container-box button{
-    width: 185px;
-    height: 48px;
-    background-color:#176902;
-    border-style: none;
-    text-align: center;
-}
 
-.container-box button a{
+.container-box a{
     text-decoration: none;
     color: #ffffff;
+    background-color: #176902;
     font-size: 24px;
     font-weight: 700;
     margin: 0;
