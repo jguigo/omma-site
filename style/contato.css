@@ -22,14 +22,22 @@ h1{
 
 .container{
     display: flex;
+    width: 100%;
+    margin: 0 auto;
 }
 
-.form{
-    display: flex;
-    flex-direction: column;
+.container .banner-lateral{
+    width: 25%;
+    height: 1000px;
+    background-image: url(../images/retangulo.svg);
+    background-size: cover;
+    border: 1px solid #FFA000;
+    border: 10px;
 }
 
-.form forms{
-    display: flex;
-    flex-direction: column;
+
+
+
+footer{
+    margin-top: 503px;
 }
