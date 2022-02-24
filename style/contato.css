@@ -1,14 +1,12 @@
-main{
-    width: 100%;
-    max-width: 1440px;
-    margin: 0px auto;
+footer{
+    margin-top: 503px;
 }
 
 h1{
     color: #fff;
     font-size: 70px;
     font-weight: 700;
-    padding: 5%;
+    padding: 5% 10%;
     margin: 0;
 }
 .top-container{
@@ -21,23 +19,57 @@ h1{
 }
 
 .container{
-    display: flex;
     width: 100%;
+    max-width: 1440px;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
 }
 
 .container .banner-lateral{
     width: 25%;
-    height: 1000px;
+    height: 1110px;
     background-image: url(../images/retangulo.svg);
     background-size: cover;
+    
+}
+
+.container form{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
     border: 1px solid #FFA000;
-    border: 10px;
+    border-radius: 20px;
+    padding: 40px;
+    margin-left: 20px;
 }
 
-
-
-
-footer{
-    margin-top: 503px;
+form h2{
+    color: #FFC107;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 65px;
 }
+
+input{
+    height: 50px;
+}
+
+textarea{
+    height: 250px;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 25px;
+    border: 1px solid #FFA000;
+    border-radius: 10px;
+}
+
+form button{
+    border: none;
+}
+
