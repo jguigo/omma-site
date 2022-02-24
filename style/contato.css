@@ -85,3 +85,9 @@ form button{
     transition: 300ms;
     cursor: pointer;
 }
+
+@media screen and (max-width: 1360px){
+    .top-container{
+        height: 405px;
+    }
+}
