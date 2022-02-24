@@ -6,6 +6,7 @@ h1{
     color: #fff;
     font-size: 70px;
     font-weight: 700;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
     padding: 5% 10%;
     margin: 0;
 }
