@@ -23,7 +23,7 @@ h1{
     max-width: 1440px;
     margin: 0 auto;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
 
 }
 
@@ -51,15 +51,17 @@ form h2{
     color: #FFC107;
     font-size: 48px;
     font-weight: bold;
-    margin-bottom: 65px;
+    margin-bottom: 85px;
 }
 
 input{
     height: 50px;
+    padding-left: 20px;
 }
 
 textarea{
     height: 250px;
+    padding: 20px;
 }
 
 input, textarea{
@@ -67,9 +69,18 @@ input, textarea{
     margin-bottom: 25px;
     border: 1px solid #FFA000;
     border-radius: 10px;
+    
 }
+
 
 form button{
     border: none;
+    color: #FFF;
+    background-color: #FFC107;
+    font-size: 16px;
+    font-weight: 800;
+    border-radius: 50px;
+    padding: 15px 50px;
+    transition: 300ms;
+    cursor: pointer;
 }
-
