@@ -19,10 +19,11 @@ main h2{
 }
 
 .banner-top{
-    height: 700px;
+    height: 640px;
     background-image: url(../images/banner2.svg);
     background-size: cover;
-    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-position: 0% 80%;
     margin-bottom: 75px;
 }
 
