@@ -15,6 +15,25 @@ main h2{
     font-size: 55px;
     font-weight: 700;
     text-align: center;
+    margin-bottom: 75px;
+}
+
+.banner-top{
+    height: 700px;
+    background-image: url(../images/banner2.svg);
+    background-size: cover;
+    background-position: center bottom;
+    margin-bottom: 75px;
+}
+
+.banner-top h1{
+    display: flex;
+    justify-content: flex-end;
+    color: #fff;
+    font-size: 70px;
+    font-weight: 700;
+    padding: 10%;
+    margin: 0;
 }
 
 .container-box{
